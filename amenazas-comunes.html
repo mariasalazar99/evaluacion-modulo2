@@ -8,53 +8,72 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
 <body style="background-color: #96b5d3;">
-    <h1 class="text-center my-3">Amenazas Comunes</h1>
-    <br>
+ <!--Barra de Navegación-->
+<body style="background-color: #96b5d3;">
+<nav class="container text-center fw-bold py-2 bg-light rounded">
+    <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="/home.html">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/consejos-de-seguridad.html">Consejos de Seguridad</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/amenazas-comunes.html">Amenazas Comunes</a>
+  </li>
+</ul>
+</nav>      
+ 
 <!--Lista Amenazas Comunes-->
 <div class="container">
-        <p class="fw-bold">¿Te suenan algunos de estos términos? Te presentamos algunas de las amenazas más comunes en ciberseguridad:</p>
-       <div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-0" style="margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+    <div id="titulo" class="text-center my-3">
+    <h1 class="text-center text-primary-emphasis my-3">Amenazas Comunes</h1>
+    <p class="fw-bold">¿Te suenan algunos de estos términos? Te presentamos algunas de las amenazas más comunes en ciberseguridad:</p>
+    </div>   
+<div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0 fade-in-on-scroll" style="margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Phishing</h5>
-        <p class="card-text">Intentos de obtener información sensible a través de engaños.</p>
+        <p class="card-text text-primary-emphasis">Intentos de obtener información sensible a través de engaños.</p>
       </div>
     </div>
   </div>
-  <div class="col-sm-6 mb-3 mb-sm-0" style="margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <div class="col-sm-6 mb-3 mb-sm-0 fade-in-on-scroll" style="margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
     <div class="card" >
       <div class="card-body ">
         <h5 class="card-title">Virus</h5>
-        <p class="card-text">Programas que se replican y dañan archivos o sistemas.</p>
+        <p class="card-text text-primary-emphasis">Programas que se replican y dañan archivos o sistemas.</p>
       </div>
     </div>
   </div>
 </div>
 <br>
 <div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-0" style="margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <div class="col-sm-6 mb-3 mb-sm-0 fade-in-on-scroll" style="margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Malware</h5>
-        <p class="card-text">Software malicioso diseñado para dañar o explotar dispositivos.</p>
+        <p class="card-text text-primary-emphasis">Software malicioso diseñado para dañar o explotar dispositivos.</p>
       </div>
     </div>
   </div>
-  <div class="col-sm-6 mb-3 mb-sm-0" style="margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <div class="col-sm-6 mb-3 mb-sm-0 fade-in-on-scroll" style="margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Ransomware</h5>
-        <p class="card-text">Malware que cifra los archivos de la víctima y exige un rescate para su recuperación.</p>
+        <p class="card-text text-primary-emphasis">Programa dañino cuyo objetivo es solicitar un rescate a la víctima.</p>
       </div>
     </div>
   </div>
 </div>
-    </div>
+</div>
 
 <!--Imagen Referencial-->
 <div class="container text-center mt-4">
 <img src="../assets/images/flyer.png" alt="Flyer" class="img-fluid mt-4" style="display: block; margin: 0 auto; border-radius: 60px; max-width: 70%; height: auto;">
 </div>
+
+<script src="../assets/script.js"></script>
 </body>
 </html>

@@ -10,3 +10,89 @@
 #stats h2 {
     margin-bottom: 20px;
 }
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  padding: 2rem;
+  border-left: 4px solid;
+  border-radius: 1rem;
+  background-color: #1f2937; /* bg-gray-800 */
+}
+
+.text-primary {
+  color: #38bdf8;
+}
+
+.text-primary-emphasis {
+  color: #e0f2fe;
+}
+
+.text-danger {
+  color: #f87171;
+}
+
+.border-blue {
+  border-color: #60a5fa;
+}
+
+.border-green {
+  border-color: #34d399;
+}
+
+.border-purple {
+  border-color: #a78bfa;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.fade-in-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
