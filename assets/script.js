@@ -1,4 +1,4 @@
-// Scroll de Home //
+// Scroll de "Home" //
 document.addEventListener('DOMContentLoaded', () => {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add("visible");
-        observer.unobserve(entry.target); // evita reanimar
+        observer.unobserve(entry.target); 
       }
     });
   }, { threshold: 0.1 });
