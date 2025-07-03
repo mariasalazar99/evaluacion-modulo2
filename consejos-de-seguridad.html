@@ -5,21 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    
     <title>Consejos de Seguridad | Ciberseguridad</title>
 </head>
-<body>
+<body style="background-color: #96b5d3;">
     <h1 class="text-center my-2">Consejos de Seguridad</h1>
     <div class="container">
         <p class="text-secondary">Aquí encontrarás una lista de consejos para mejorar tu seguridad en línea:</p>
-        <ul class="list-group">
-            <li class="list-group-item">Utiliza contraseñas fuertes y únicas para cada cuenta.</li>
-            <li class="list-group-item">Habilita la autenticación de dos factores siempre que sea posible.</li>
-            <li class="list-group-item">Mantén tu software y sistemas operativos actualizados.</li>
-            <li class="list-group-item">Ten cuidado con los correos electrónicos sospechosos
-                y no hagas clic en enlaces desconocidos.</li>
-            <li class="list-group-item">Utiliza una VPN para proteger tu conexión a Internet.</li>
-            <li class="list-group-item">Realiza copias de seguridad periódicas de tus datos importantes.</li>
-        </ul>
     </div>
+<!--Carrusel-->
+<div class="container my-4">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="max-width: 800px; margin: auto; border-radius: 50px;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../assets/images/consejos-1.png" class="d-block w-100 rounded" alt="Consejo 1">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/consejos-2.jpg" class="d-block w-100 rounded" alt="Consejo 2">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/consejos-3.jpg" class="d-block w-100 rounded" alt="Consejo 3">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/consejos-4.jpg" class="d-block w-100 rounded" alt="Consejo 4">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
