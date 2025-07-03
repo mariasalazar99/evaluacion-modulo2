@@ -1,8 +1,12 @@
 #stats{
-    background-color: rgb(163, 153, 245);
+    background-color: rgb(198, 192, 240);
     color: white;
     padding: 10px;
     border-radius: 25px;
     text-align: center;
     margin-top: 20px;
+}
+
+#stats h2 {
+    margin-bottom: 20px;
 }
