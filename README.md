@@ -14,7 +14,7 @@ Entre sus funciones encontrarás:
 5. script.js
 6. styles.css
 
-## 🧠 Test de Seguridad Cibernética (Modal)
+## Test de Seguridad Cibernética (Modal)
 Se incluye un modal interactivo con un pequeño test de ciberseguridad que:
 
 - Se activa con un botón desde la interfaz
